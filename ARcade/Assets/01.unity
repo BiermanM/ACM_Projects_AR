@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.446579, g: 0.49641326, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -108,37 +108,6 @@ NavMeshSettings:
     tileSize: 256
     accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &54418569
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100026, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 54418570}
-  m_Layer: 0
-  m_Name: BipTrump Pelvis
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &54418570
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400026, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 54418569}
-  m_LocalRotation: {x: -0.49999967, y: 0.50000036, z: 0.49999967, w: 0.50000036}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
-  m_Children:
-  - {fileID: 629427269}
-  - {fileID: 677151647}
-  - {fileID: 1390303865}
-  m_Father: {fileID: 2140308532}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &102068067
 GameObject:
   m_ObjectHideFlags: 0
@@ -174,7 +143,7 @@ RectTransform:
   m_AnchorMin: {x: 0.16000001, y: 0.2}
   m_AnchorMax: {x: 0.16000001, y: 0.2}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 80, y: 80}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &102068069
 MonoBehaviour:
@@ -227,68 +196,132 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 102068067}
---- !u!1 &141624690
+--- !u!1 &164688678
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100028, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 141624691}
-  m_Layer: 0
-  m_Name: BipTrump R Calf
+  - component: {fileID: 164688679}
+  - component: {fileID: 164688682}
+  - component: {fileID: 164688681}
+  - component: {fileID: 164688680}
+  m_Layer: 5
+  m_Name: Back Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &141624691
-Transform:
+--- !u!224 &164688679
+RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400028, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 141624690}
-  m_LocalRotation: {x: -3.1545574e-10, y: 8.839695e-10, z: 0.21668789, w: 0.97624093}
-  m_LocalPosition: {x: -0.29306045, y: 0.000000009536743, z: 0}
-  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 164688678}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1612340408}
-  m_Father: {fileID: 677151647}
-  m_RootOrder: 0
+  - {fileID: 698225798}
+  m_Father: {fileID: 551510609}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &173336460
-GameObject:
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 150, y: -50}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &164688680
+MonoBehaviour:
   m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 164688678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0, g: 0.60784316, b: 0.61960787, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 164688681}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 951874985}
+        m_MethodName: startGameBtn
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 03
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &164688681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 164688678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &164688682
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 164688678}
+--- !u!1 &173336460 stripped
+GameObject:
   m_PrefabParentObject: {fileID: 100052, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
   m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 173336461}
-  - component: {fileID: 173336464}
-  - component: {fileID: 173336463}
-  - component: {fileID: 173336462}
-  m_Layer: 0
-  m_Name: trump_lp_anim_iddle01
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &173336461
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400052, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 173336460}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
-  m_Children:
-  - {fileID: 1380296056}
-  - {fileID: 1436820972}
-  m_Father: {fileID: 878746926}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &173336462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -315,196 +348,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!111 &173336464
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: c9b16bdc2795d1c4a8a4e1d4e706d103,
-    type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 173336460}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_Animations:
-  - {fileID: 7400000, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  - {fileID: 7400000, guid: f024bc708b18d5943b8c9c4ac913cd72, type: 3}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 1
---- !u!1 &223373553
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100006, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 223373554}
-  m_Layer: 0
-  m_Name: BipTrump L Clavicle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &223373554
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400006, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 223373553}
-  m_LocalRotation: {x: -0.6088361, y: -0.07127894, z: 0.7882011, w: 0.054561544}
-  m_LocalPosition: {x: -0.27942336, y: -0.018373603, z: 0.12062793}
-  m_LocalScale: {x: 1.0000001, y: 1, z: 0.9999999}
-  m_Children:
-  - {fileID: 1624999763}
-  m_Father: {fileID: 1379354241}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &268409638
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100024, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 268409639}
-  m_Layer: 0
-  m_Name: BipTrump Neck
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &268409639
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400024, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 268409638}
-  m_LocalRotation: {x: -0.00000027569803, y: 0.00000067438907, z: -0.14071918, w: 0.9900496}
-  m_LocalPosition: {x: -0.27364135, y: 0.040421903, z: 0.0000000834465}
-  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
-  m_Children:
-  - {fileID: 535312256}
-  m_Father: {fileID: 1379354241}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &393478056
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100032, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 393478057}
-  m_Layer: 0
-  m_Name: BipTrump R Finger0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &393478057
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400032, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 393478056}
-  m_LocalRotation: {x: -0.44854188, y: 0.13317733, z: -0.06779049, w: 0.88118017}
-  m_LocalPosition: {x: -0.05435764, y: 0.034599304, z: 0.06001068}
-  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
-  m_Children: []
-  m_Father: {fileID: 513364032}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &466839377
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100014, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 466839378}
-  m_Layer: 0
-  m_Name: BipTrump L Forearm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &466839378
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400014, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 466839377}
-  m_LocalRotation: {x: -0.000000005814116, y: 0.000000005965316, z: 0.30402553, w: 0.9526639}
-  m_LocalPosition: {x: -0.3316114, y: -0.000000019073486, z: -0.000000038146972}
-  m_LocalScale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
-  m_Children:
-  - {fileID: 1745283037}
-  m_Father: {fileID: 1624999763}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &513364031
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100040, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 513364032}
-  m_Layer: 0
-  m_Name: BipTrump R Hand
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &513364032
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400040, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 513364031}
-  m_LocalRotation: {x: 0.6745164, y: -0.032382596, z: 0.0694344, w: 0.7342738}
-  m_LocalPosition: {x: -0.2759639, y: 0.000000019073486, z: -0.000000076293944}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 393478057}
-  - {fileID: 953858650}
-  m_Father: {fileID: 776456205}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &535312255
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100002, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 535312256}
-  m_Layer: 0
-  m_Name: BipTrump Head
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &535312256
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400002, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 535312255}
-  m_LocalRotation: {x: -0.08691564, y: -0.02861479, z: 0.31138894, w: 0.9458667}
-  m_LocalPosition: {x: -0.09653282, y: 0.002987976, z: 0.0000000023841857}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
-  m_Children: []
-  m_Father: {fileID: 268409639}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &551510605
 GameObject:
   m_ObjectHideFlags: 0
@@ -586,6 +429,7 @@ RectTransform:
   m_Children:
   - {fileID: 1527893498}
   - {fileID: 102068068}
+  - {fileID: 164688679}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -594,293 +438,84 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &602825122
+--- !u!1 &698225797
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
-  m_PrefabInternal: {fileID: 1085662566}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 602825126}
-  - component: {fileID: 602825125}
-  - component: {fileID: 602825124}
-  - component: {fileID: 602825123}
-  m_Layer: 0
-  m_Name: ARCamera
+  - component: {fileID: 698225798}
+  - component: {fileID: 698225800}
+  - component: {fileID: 698225799}
+  m_Layer: 5
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &602825123
-MonoBehaviour:
+--- !u!224 &698225798
+RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: bf30d577eead1ef40bcf2b404289daf4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1085662566}
-  m_GameObject: {fileID: 602825122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c47f92041efbb4b429a4eafca855ebe3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &602825124
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400006, guid: bf30d577eead1ef40bcf2b404289daf4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1085662566}
-  m_GameObject: {fileID: 602825122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4114ca95ba12f394a8ad43abfc86745c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mWorldCenterMode: 1
-  mWorldCenter: {fileID: 0}
-  mCentralAnchorPoint: {fileID: 0}
-  mParentAnchorPoint: {fileID: 0}
-  mPrimaryCamera: {fileID: 0}
-  mSecondaryCamera: {fileID: 0}
-  mWereBindingFieldsExposed: 0
---- !u!81 &602825125
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 8100000, guid: bf30d577eead1ef40bcf2b404289daf4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1085662566}
-  m_GameObject: {fileID: 602825122}
-  m_Enabled: 1
---- !u!4 &602825126
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
-  m_PrefabInternal: {fileID: 1085662566}
-  m_GameObject: {fileID: 602825122}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 698225797}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1011426673}
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &629427268
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100018, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 629427269}
-  m_Layer: 0
-  m_Name: BipTrump L Thigh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &629427269
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400018, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 629427268}
-  m_LocalRotation: {x: -0.12688372, y: 0.9916358, z: 0.0013980527, w: -0.023602795}
-  m_LocalPosition: {x: 0.00000022888183, y: 0.0000002336502, z: 0.14707974}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
-  m_Children:
-  - {fileID: 1770549913}
-  m_Father: {fileID: 54418570}
+  m_Children: []
+  m_Father: {fileID: 164688679}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &637722005
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
-  m_PrefabInternal: {fileID: 1589666595}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 878746926}
-  - component: {fileID: 637722010}
-  - component: {fileID: 637722009}
-  - component: {fileID: 637722008}
-  - component: {fileID: 637722007}
-  - component: {fileID: 637722006}
-  m_Layer: 0
-  m_Name: ImageTarget
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &637722006
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &698225799
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400004, guid: 384a0d8cc71cef74a873b3353337ea2c,
-    type: 2}
-  m_PrefabInternal: {fileID: 1589666595}
-  m_GameObject: {fileID: 637722005}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 698225797}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!33 &637722007
-MeshFilter:
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Go Back
+--- !u!222 &698225800
+CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: 384a0d8cc71cef74a873b3353337ea2c,
-    type: 2}
-  m_PrefabInternal: {fileID: 1589666595}
-  m_GameObject: {fileID: 637722005}
-  m_Mesh: {fileID: 1870028003}
---- !u!114 &637722008
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400002, guid: 384a0d8cc71cef74a873b3353337ea2c,
-    type: 2}
-  m_PrefabInternal: {fileID: 1589666595}
-  m_GameObject: {fileID: 637722005}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e246bd21db86f8346bc66895a661fcc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &637722009
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c,
-    type: 2}
-  m_PrefabInternal: {fileID: 1589666595}
-  m_GameObject: {fileID: 637722005}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cadfb90286c81fd42a6785e4e7cd3024, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mTrackableName: Dolla
-  mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Dolla.xml
-  mExtendedTracking: 0
-  mInitializeSmartTerrain: 0
-  mReconstructionToInitialize: {fileID: 0}
-  mSmartTerrainOccluderBoundsMin: {x: 0, y: 0, z: 0}
-  mSmartTerrainOccluderBoundsMax: {x: 0, y: 0, z: 0}
-  mIsSmartTerrainOccluderOffset: 0
-  mSmartTerrainOccluderOffset: {x: 0, y: 0, z: 0}
-  mSmartTerrainOccluderRotation: {x: 0, y: 0, z: 0, w: 0}
-  mAutoSetOccluderFromTargetSize: 0
-  mAspectRatio: 0.4352942
-  mImageTargetType: 0
-  mWidth: 5
-  mHeight: 2.176471
---- !u!23 &637722010
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 384a0d8cc71cef74a873b3353337ea2c,
-    type: 2}
-  m_PrefabInternal: {fileID: 1589666595}
-  m_GameObject: {fileID: 637722005}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 1119180825}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!1 &677151646
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100042, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 677151647}
-  m_Layer: 0
-  m_Name: BipTrump R Thigh
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &677151647
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 698225797}
+--- !u!4 &878746926 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400042, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 677151646}
-  m_LocalRotation: {x: -0.13064516, y: 0.9913712, z: -0.00020816701, w: 0.010719746}
-  m_LocalPosition: {x: -0.00000015258789, y: -0.00000017642975, z: -0.14707975}
-  m_LocalScale: {x: 0.99999994, y: 1.0000001, z: 0.9999999}
-  m_Children:
-  - {fileID: 141624691}
-  m_Father: {fileID: 54418570}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &776456204
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100038, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 776456205}
-  m_Layer: 0
-  m_Name: BipTrump R Forearm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &776456205
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400038, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 776456204}
-  m_LocalRotation: {x: 0.0000000058141167, y: -0.0000000059653167, z: 0.30402553,
-    w: 0.9526639}
-  m_LocalPosition: {x: -0.33161134, y: 0, z: 0}
-  m_LocalScale: {x: 0.9999999, y: 1, z: 1}
-  m_Children:
-  - {fileID: 513364032}
-  m_Father: {fileID: 1134737392}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &878746926
-Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
   m_PrefabInternal: {fileID: 1589666595}
-  m_GameObject: {fileID: 637722005}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
-  m_Children:
-  - {fileID: 173336461}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &901932496
 Prefab:
   m_ObjectHideFlags: 0
@@ -942,175 +577,47 @@ Prefab:
       objectReference: {fileID: 7400000, guid: f024bc708b18d5943b8c9c4ac913cd72, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_RootGameObject: {fileID: 173336460}
   m_IsPrefabParent: 0
---- !u!1 &906722733
+--- !u!1 &951874984
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100008, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 906722734}
+  - component: {fileID: 951874986}
+  - component: {fileID: 951874985}
   m_Layer: 0
-  m_Name: BipTrump L Finger0
+  m_Name: BtnManagerObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &906722734
+--- !u!114 &951874985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 951874984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a1c6b0e2e996c1418f46d41e451812b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &951874986
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400008, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 906722733}
-  m_LocalRotation: {x: 0.44854188, y: -0.13317735, z: -0.06779048, w: 0.8811801}
-  m_LocalPosition: {x: -0.05435768, y: 0.034599304, z: -0.06001068}
-  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
-  m_Children: []
-  m_Father: {fileID: 1745283037}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &953858649
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100034, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 953858650}
-  m_Layer: 0
-  m_Name: BipTrump R Finger1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &953858650
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400034, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 953858649}
-  m_LocalRotation: {x: 0.0003506247, y: 0.00018867568, z: -0.47392392, w: 0.88056576}
-  m_LocalPosition: {x: -0.12461033, y: 0.014280396, z: -0.0062820814}
-  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
-  m_Children: []
-  m_Father: {fileID: 513364032}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1011426672
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100002, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
-  m_PrefabInternal: {fileID: 1085662566}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1011426673}
-  - component: {fileID: 1011426678}
-  - component: {fileID: 1011426677}
-  - component: {fileID: 1011426676}
-  - component: {fileID: 1011426675}
-  - component: {fileID: 1011426674}
-  m_Layer: 0
-  m_Name: Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1011426673
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400002, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
-  m_PrefabInternal: {fileID: 1085662566}
-  m_GameObject: {fileID: 1011426672}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 951874984}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 208.70212, y: 350.67316, z: 3.504634}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1219939057}
-  m_Father: {fileID: 602825126}
-  m_RootOrder: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1011426674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400016, guid: bf30d577eead1ef40bcf2b404289daf4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1085662566}
-  m_GameObject: {fileID: 1011426672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d4add68fcad15844891a06f869084d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!124 &1011426675
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 12400000, guid: bf30d577eead1ef40bcf2b404289daf4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1085662566}
-  m_GameObject: {fileID: 1011426672}
-  m_Enabled: 0
---- !u!92 &1011426676
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9200000, guid: bf30d577eead1ef40bcf2b404289daf4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1085662566}
-  m_GameObject: {fileID: 1011426672}
-  m_Enabled: 1
---- !u!114 &1011426677
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400010, guid: bf30d577eead1ef40bcf2b404289daf4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1085662566}
-  m_GameObject: {fileID: 1011426672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a82d9a4bfbaccce4298a2b72f6a03f8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!20 &1011426678
-Camera:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2000000, guid: bf30d577eead1ef40bcf2b404289daf4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1085662566}
-  m_GameObject: {fileID: 1011426672}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 2
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.05
-  far clip plane: 2000
-  field of view: 51
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 0
-  m_AllowMSAA: 1
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
-  m_StereoMirrorMode: 0
 --- !u!1001 &1085662566
 Prefab:
   m_ObjectHideFlags: 0
@@ -1152,7 +659,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
-  m_RootGameObject: {fileID: 602825122}
   m_IsPrefabParent: 0
 --- !u!21 &1119180825
 Material:
@@ -1178,356 +684,6 @@ Material:
     m_Floats: []
     m_Colors:
     - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
---- !u!1 &1134737391
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100046, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1134737392}
-  m_Layer: 0
-  m_Name: BipTrump R UpperArm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1134737392
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400046, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 1134737391}
-  m_LocalRotation: {x: 0.04658942, y: 0.5292242, z: 0.15309773, w: 0.8332541}
-  m_LocalPosition: {x: -0.20459291, y: 0.000000076293944, z: 0}
-  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
-  m_Children:
-  - {fileID: 776456205}
-  m_Father: {fileID: 1260691085}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1219939056
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100004, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
-  m_PrefabInternal: {fileID: 1085662566}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1219939057}
-  - component: {fileID: 1219939059}
-  - component: {fileID: 1219939058}
-  m_Layer: 0
-  m_Name: BackgroundPlane
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1219939057
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400004, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
-  m_PrefabInternal: {fileID: 1085662566}
-  m_GameObject: {fileID: 1219939056}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: -0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 500}
-  m_LocalScale: {x: 40, y: 40, z: 40}
-  m_Children: []
-  m_Father: {fileID: 1011426673}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1219939058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400012, guid: bf30d577eead1ef40bcf2b404289daf4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1085662566}
-  m_GameObject: {fileID: 1219939056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b62dc8c390ae00c41a0ae52d79877662, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mNumDivisions: 2
---- !u!23 &1219939059
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: bf30d577eead1ef40bcf2b404289daf4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1085662566}
-  m_GameObject: {fileID: 1219939056}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: e6eb16febd64e6b4a8a3f5918233c4da, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!1 &1260691084
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100030, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1260691085}
-  m_Layer: 0
-  m_Name: BipTrump R Clavicle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1260691085
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400030, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 1260691084}
-  m_LocalRotation: {x: 0.6088363, y: 0.07127675, z: 0.78820133, w: 0.0545599}
-  m_LocalPosition: {x: -0.27942345, y: -0.018372955, z: -0.12062804}
-  m_LocalScale: {x: 1.0000001, y: 0.9999999, z: 0.99999994}
-  m_Children:
-  - {fileID: 1134737392}
-  m_Father: {fileID: 1379354241}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1379354240
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100050, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1379354241}
-  m_Layer: 0
-  m_Name: BipTrump Spine1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1379354241
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400050, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 1379354240}
-  m_LocalRotation: {x: -0.000000048977565, y: 0.0000013083366, z: -0.31018358, w: 0.95067674}
-  m_LocalPosition: {x: -0.33873168, y: -0.00018327712, z: -0.0000000023841857}
-  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
-  m_Children:
-  - {fileID: 223373554}
-  - {fileID: 268409639}
-  - {fileID: 1260691085}
-  m_Father: {fileID: 1390303865}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1380296055
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100054, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1380296056}
-  - component: {fileID: 1380296057}
-  m_Layer: 0
-  m_Name: trump_lp_model
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1380296056
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400054, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 1380296055}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 173336461}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &1380296057
-SkinnedMeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13700000, guid: c9b16bdc2795d1c4a8a4e1d4e706d103,
-    type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 1380296055}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 8e68aad4e86bd0248bb8e1855e60f955, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  serializedVersion: 2
-  m_Quality: 0
-  m_UpdateWhenOffscreen: 0
-  m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 4300000, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_Bones:
-  - {fileID: 535312256}
-  - {fileID: 1260691085}
-  - {fileID: 1379354241}
-  - {fileID: 268409639}
-  - {fileID: 1390303865}
-  - {fileID: 54418570}
-  - {fileID: 677151647}
-  - {fileID: 1134737392}
-  - {fileID: 776456205}
-  - {fileID: 513364032}
-  - {fileID: 393478057}
-  - {fileID: 953858650}
-  - {fileID: 141624691}
-  - {fileID: 1612340408}
-  - {fileID: 1845737063}
-  - {fileID: 223373554}
-  - {fileID: 629427269}
-  - {fileID: 1624999763}
-  - {fileID: 466839378}
-  - {fileID: 1745283037}
-  - {fileID: 906722734}
-  - {fileID: 1496598778}
-  - {fileID: 1770549913}
-  - {fileID: 1775415366}
-  - {fileID: 1528799350}
-  m_BlendShapeWeights: []
-  m_RootBone: {fileID: 54418570}
-  m_AABB:
-    m_Center: {x: -0.27311686, y: 0.12592906, z: -0.00000035762787}
-    m_Extent: {x: 0.95570445, y: 0.498357, z: 0.56326914}
-  m_DirtyAABB: 0
---- !u!1 &1390303864
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100048, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1390303865}
-  m_Layer: 0
-  m_Name: BipTrump Spine
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1390303865
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400048, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 1390303864}
-  m_LocalRotation: {x: -0.0000020201098, y: 0.000000527965, z: 0.07766068, w: 0.9969799}
-  m_LocalPosition: {x: -0.09670349, y: -0.00026631355, z: 0.0000001335144}
-  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
-  m_Children:
-  - {fileID: 1379354241}
-  m_Father: {fileID: 54418570}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1436820971
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100056, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1436820972}
-  m_Layer: 0
-  m_Name: trump_rigCharRoot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1436820972
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400056, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 1436820971}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2140308532}
-  m_Father: {fileID: 173336461}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1496598777
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100010, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1496598778}
-  m_Layer: 0
-  m_Name: BipTrump L Finger1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1496598778
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400010, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 1496598777}
-  m_LocalRotation: {x: -0.00034568686, y: -0.00019753943, z: -0.49615514, w: 0.8682338}
-  m_LocalPosition: {x: -0.12461033, y: 0.014280396, z: 0.0062821195}
-  m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
-  m_Children: []
-  m_Father: {fileID: 1745283037}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1527893497
 GameObject:
   m_ObjectHideFlags: 0
@@ -1696,34 +852,6 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1527893497}
---- !u!1 &1528799349
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100020, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1528799350}
-  m_Layer: 0
-  m_Name: BipTrump L Toe0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1528799350
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400020, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 1528799349}
-  m_LocalRotation: {x: 0.00000009413037, y: -0.00000013627745, z: -0.7071068, w: 0.7071067}
-  m_LocalPosition: {x: -0.10627359, y: 0.15089314, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1775415366}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1589666595
 Prefab:
   m_ObjectHideFlags: 0
@@ -1809,182 +937,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
-  m_RootGameObject: {fileID: 637722005}
   m_IsPrefabParent: 0
---- !u!1 &1612340407
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100036, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1612340408}
-  m_Layer: 0
-  m_Name: BipTrump R Foot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1612340408
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400036, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 1612340407}
-  m_LocalRotation: {x: 0.16991958, y: -0.0043437695, z: -0.08780036, w: 0.98152924}
-  m_LocalPosition: {x: -0.29306057, y: -0.0000000023841857, z: 0.000000009536743}
-  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
-  m_Children:
-  - {fileID: 1845737063}
-  m_Father: {fileID: 141624691}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1624999762
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100022, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1624999763}
-  m_Layer: 0
-  m_Name: BipTrump L UpperArm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1624999763
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400022, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 1624999762}
-  m_LocalRotation: {x: -0.046589572, y: -0.5292237, z: 0.15309763, w: 0.8332544}
-  m_LocalPosition: {x: -0.20459294, y: 0, z: 0.000000076293944}
-  m_LocalScale: {x: 1.0000001, y: 1, z: 0.99999994}
-  m_Children:
-  - {fileID: 466839378}
-  m_Father: {fileID: 223373554}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1745283036
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100016, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1745283037}
-  m_Layer: 0
-  m_Name: BipTrump L Hand
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1745283037
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400016, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 1745283036}
-  m_LocalRotation: {x: -0.6745164, y: 0.032382604, z: 0.069434404, w: 0.7342738}
-  m_LocalPosition: {x: -0.2759638, y: 0.000000038146972, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 906722734}
-  - {fileID: 1496598778}
-  m_Father: {fileID: 466839378}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1770549912
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100004, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1770549913}
-  m_Layer: 0
-  m_Name: BipTrump L Calf
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1770549913
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400004, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 1770549912}
-  m_LocalRotation: {x: 0.0000000012504371, y: -0.0000000035399206, z: 0.213545, w: 0.97693324}
-  m_LocalPosition: {x: -0.2930605, y: 0.000000009536743, z: 0.000000009536743}
-  m_LocalScale: {x: 0.99999994, y: 1.0000001, z: 1}
-  m_Children:
-  - {fileID: 1775415366}
-  m_Father: {fileID: 629427269}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1775415365
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100012, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1775415366}
-  m_Layer: 0
-  m_Name: BipTrump L Foot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1775415366
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400012, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 1775415365}
-  m_LocalRotation: {x: -0.15369372, y: -0.0098585645, z: -0.0903187, w: 0.98393273}
-  m_LocalPosition: {x: -0.29306057, y: -0.0000000047683715, z: 0.000000009536743}
-  m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 1}
-  m_Children:
-  - {fileID: 1528799350}
-  m_Father: {fileID: 1770549913}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1845737062
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100044, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1845737063}
-  m_Layer: 0
-  m_Name: BipTrump R Toe0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1845737063
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400044, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 1845737062}
-  m_LocalRotation: {x: 0.000000047766008, y: -0.000000047765898, z: -0.7071067, w: 0.7071068}
-  m_LocalPosition: {x: -0.106273584, y: 0.15089309, z: 0.000000009536743}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1612340408}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1870028003
 Mesh:
   m_ObjectHideFlags: 0
@@ -2178,32 +1131,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &2140308531
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 2140308532}
-  m_Layer: 0
-  m_Name: BipTrump
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2140308532
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: c9b16bdc2795d1c4a8a4e1d4e706d103, type: 3}
-  m_PrefabInternal: {fileID: 901932496}
-  m_GameObject: {fileID: 2140308531}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071063, w: 0.70710725}
-  m_LocalPosition: {x: -0.027300023, y: 0.04585163, z: 0.6777938}
-  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
-  m_Children:
-  - {fileID: 54418570}
-  m_Father: {fileID: 1436820972}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
